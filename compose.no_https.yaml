@@ -12,5 +12,3 @@ services:
         - VPL_INSTALL_LEVEL
         - VPL_JAIL_PORT
         - VPL_JAIL_JAILPATH
-    ports:
-      - ${VPL_EXPOSE_PORT}:${VPL_JAIL_PORT}
